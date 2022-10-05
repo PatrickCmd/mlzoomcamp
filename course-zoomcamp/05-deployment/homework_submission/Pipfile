@@ -4,13 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-scikit-learn = "==0.24.2"
 flask = "*"
 gunicorn = "*"
+fastapi = "*"
+scikit-learn = "==1.0.2"
 
 [dev-packages]
-awsebcli = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"

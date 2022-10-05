@@ -10,6 +10,8 @@ numpy = "*"
 pandas = "*"
 scikit-learn = "*"
 seaborn = "*"
+requests = "*"
+flask = "*"
 
 [dev-packages]
 
