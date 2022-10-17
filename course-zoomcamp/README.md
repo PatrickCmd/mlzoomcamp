@@ -175,12 +175,20 @@ To make discussions in Slack more organized:
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. Production-Ready Machine Learning (Bento ML)
+## 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
 
-More information coming soon! 
+- 7.1 [Intro/Session Overview](07-bentoml-production/01-intro.md)
+- 7.2 [Building Your Prediction Service with BentoML](07-bentoml-production/02-build-bento-service.md)
+- 7.3 [Deploying Your Prediction Service](07-bentoml-production/03-deploy-bento-service.md)
+- 7.4 [Sending, Receiving and Validating Data](07-bentoml-production/04-validation.md)
+- 7.5 [High-Performance Serving](07-bentoml-production/05-high-performance.md)
+- 7.6 [Bento Production Deployment](07-bentoml-production/06-production-deployment.md)
+- 7.7 [(Optional) Advanced Example: Deploying Stable Diffusion Model](07-bentoml-production/07-stable-diffusion.md)
+- 7.8 [Summary](07-bentoml-production/08-summary.md)
+- 7.9 [Homework](07-bentoml-production/homework.md)
 
 
-## [Midterm Project](07-midterm-project/)
+## [Midterm Project](projects/#midterm-project)
 
 Putting everything we've learned so far in practice!
 
@@ -246,15 +254,15 @@ Putting everything we've learned so far in practice!
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
-## [Capstone Project](12-capstone/)
+## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
 
-## [Article](13-article/)
+## [Article](article/)
 
 Writing an article about something not covered in the course.
 
-## [Third project](14-project) (optional)
+## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
 
