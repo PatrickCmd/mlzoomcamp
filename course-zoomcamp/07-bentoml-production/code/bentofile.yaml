@@ -1,0 +1,11 @@
+service: "service.py:svc"
+labels:
+  owner: PatrickCmd
+  project: ML
+include:
+- "*.py"
+python:
+  packages:
+    - scikit-learn
+    - xgboost
+    - pydantic

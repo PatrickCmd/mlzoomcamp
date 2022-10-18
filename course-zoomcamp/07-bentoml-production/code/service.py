@@ -2,6 +2,39 @@ import numpy as np
 
 import bentoml
 from bentoml.io import JSON
+from pydantic import BaseModel
+
+class CreditApplication(BaseModel):
+    """Credit Model Schema
+    {
+        "seniority": 3,
+        "home": "owner",
+        "time": 36,
+        "age": 26,
+        "marital": "single",
+        "records": "no",
+        "job": "freelance",
+        "expenses": 35,
+        "income": 0.0,
+        "assets": 60000.0,
+        "debt": 3000.0,
+        "amount": 800,
+        "price": 1000
+    }
+    """
+    seniority: int
+    home: str
+    time: int
+    age: int
+    marital: str
+    records: str
+    job: str
+    expenses: int
+    assets: float
+    debt: float
+    amount: int
+    price: int
+
 
 model_ref = bentoml.xgboost.get("credit_risk_model:oyfd25cj3oijqdu5")
 dv = model_ref.custom_objects['dictVectorizer']
@@ -11,8 +44,9 @@ model_runner = model_ref.to_runner()
 svc = bentoml.Service("credit_risk_classifier", runners=[model_runner])
 
 
-@svc.api(input=JSON(), output=JSON())
-async def classify(application_data):
+@svc.api(input=JSON(pydantic_model=CreditApplication), output=JSON())
+async def classify(credit_application):
+    application_data = credit_application.dict()
     vector = dv.transform(application_data)
     prediction = await model_runner.predict.async_run(vector)
     print(prediction)

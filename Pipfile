@@ -12,6 +12,10 @@ scikit-learn = "*"
 seaborn = "*"
 requests = "*"
 flask = "*"
+bentoml = "*"
+pydantic = "*"
+fastapi = "*"
+locust = "*"
 
 [dev-packages]
 
