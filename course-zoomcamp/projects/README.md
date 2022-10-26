@@ -19,18 +19,11 @@ This is what you need to do for each project
 * Put your model into a web service and deploy it locally with Docker
 * Bonus points for deploying the service to the cloud
 
+## Projects 2022
 
-## Midterm project
-
-TBA
-
-## Capstone 1
-
-TBA
-
-## Capstone 2
-
-TBA
+* [Midterm project](../cohorts/2022/projects.md#midterm-project)
+* [Capstone 1](../cohorts/2022/projects.md#capstone-1)
+* [Capstone 2](../cohorts/2022/projects.md#capstone-2)
 
 
 ## Deliverables
@@ -58,16 +51,16 @@ For a project, you repository/folder should contain the following:
   * or equivalents: conda environment file, requirements.txt or pyproject.toml
 * `Dockerfile` for running the service
 * Deployment
-  * URL to the service your deployed or
+  * URL to the service you deployed or
   * Video or image of how you interact with the deployed service
 
 
 ## Peer reviewing
 
-To evaluate the projects, we'll use peer reviewing. This is a great opportunity for your to learn from each other.
+To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
 
 * To get points for your project, your need to evaluate 3 projects of your peers
-* You get 3 extra point for each evaluation
+* You get 3 extra points for each evaluation
 
 Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
 
@@ -110,6 +103,7 @@ Violating any of this will result in 0 points for this project.
 * https://www.openml.org/search?type=data
 * https://www.tensorflow.org/datasets/catalog/overview
 * [Soocer data](https://github.com/statsbomb/open-data)
+* https://newzealand.ai/public-data-sets
 * Add more data here!
 
 
