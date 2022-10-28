@@ -1,0 +1,11 @@
+service: "service.py:svc"
+labels:
+  owner: PatrickCmd
+  project: Smoke Detection ML
+include:
+- "service.py"
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - pydantic
