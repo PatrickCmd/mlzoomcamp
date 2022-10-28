@@ -3,8 +3,13 @@
 This is mid term project for the [MLZoomCamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) course here sponsored by [DataTalks.Club](https://datatalks.club/)
 
 
+## Probelem
+
 ## Dataset
 The chosen dataset for this project is the Smoke Detection Dataset from [Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset)
+
+## EDA Notebook
+See notebook for data cleaning, EDA and training of machine learning models [here](https://nbviewer.org/github/PatrickCmd/mlzoomcamp/blob/main/course-zoomcamp/mid-term-project/smoke-detection-notebook.ipynb#)
 
 
 ## Project Setup
