@@ -1,12 +1,27 @@
 # MID TERM PROJECT (Smoke Detection Dataset)
 
-This is mid term project for the [MLZoomCamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) course here sponsored by [DataTalks.Club](https://datatalks.club/)
+This is mid term project for the [MLZoomCamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) course [here](https://github.com/PatrickCmd/mlzoomcamp/tree/main/course-zoomcamp/projects) sponsored by [DataTalks.Club](https://datatalks.club/)
 
 
-## Probelem
+## Problem
+Detect smoke with the help of IOT data and trigger a fire alarm. Use IOT data, train machine learning model to detect whether a smoke detector will give off a fire alarm in different scenerios, then deploy the model as web service.
 
 ## Dataset
 The chosen dataset for this project is the Smoke Detection Dataset from [Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset)
+
+## Dataset description:
+
+Collection of training data is performed with the help of IOT devices since the goal is to develop a AI based smoke detector device. Many different environments and fire sources have to be sampled to ensure a good dataset for training. A short list of different scenarios which are captured:
+
+```
+Normal indoor
+Normal outdoor
+Indoor wood fire, firefighter training area
+Indoor gas fire, firefighter training area
+Outdoor wood, coal, and gas grill
+Outdoor high humidity
+etc.
+```
 
 ## EDA Notebook
 See notebook for data cleaning, EDA and training of machine learning models [here](https://nbviewer.org/github/PatrickCmd/mlzoomcamp/blob/main/course-zoomcamp/mid-term-project/smoke-detection-notebook.ipynb#)
