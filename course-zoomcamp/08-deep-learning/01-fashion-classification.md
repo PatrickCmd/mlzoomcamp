@@ -15,6 +15,13 @@ git clone https://github.com/alexeygrigorev/clothing-dataset-small.git
 
 Add notes from the video (PRs are welcome)
 
+* introduction to this weeks topics
+* using images as data source instead of tabular data
+* classifying images of t-shirts using a convolutional neural network
+* 5000 images and 20 different classes https://www.kaggle.com/agrigorev/clothing-dataset-full
+* see corresponding medium.com article https://medium.com/data-science-insider/clothing-dataset-5b72cd7c3f1f
+* deep learning with tensorflow and keras
+* parameters, layers, regularization
 
 <table>
    <tr>
@@ -31,4 +38,4 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)
-* Next: [TensorFlow and Keras](02-tensorflow-keras.md)
+* Next: [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
