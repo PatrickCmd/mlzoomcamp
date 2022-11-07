@@ -16,6 +16,7 @@ bentoml = "*"
 pydantic = "*"
 fastapi = "*"
 locust = "*"
+tensorflow = "*"
 
 [dev-packages]
 
