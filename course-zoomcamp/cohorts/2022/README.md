@@ -95,12 +95,16 @@
 
 * [Module materials](../../09-serverless)
 * [Homework](09-serverless/homework.md)
+* Homework solution:
+  * [Code](09-serverless/homework/)
 
 
 **10. Kubernetes and TensorFlow Serving**
 
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
+* Homework solution:
+  * [Code](10-kubernetes/homework/)
 
 
 **11. KServe (optional)**
@@ -108,9 +112,14 @@
 * [Module materials](../../11-kserve)
 * No homework
 
-**Capstone Project**
+[**Capstone Project**](projects.md#capstone-1)
 
-* TBA
+* More information: [projects.md](projects.md#capstone-1)
+
+
+[**Capstone Project 2**](projects.md#capstone-2)
+
+* More information: [projects.md](projects.md#capstone-2)
 
 
 **Article**
@@ -118,14 +127,11 @@
 * TBA
 
 
-**Third project (optional)**
-
-* TBA
-
-
 **[Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)**
 
 If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
 
 
 ## Supporters and partners
